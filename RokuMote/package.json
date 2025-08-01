@@ -1,0 +1,44 @@
+{
+  "name": "rokumote",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "expo": "~53.0.20",
+    "expo-haptics": "^14.1.4",
+    "expo-linear-gradient": "^14.1.5",
+    "expo-linking": "^7.1.7",
+    "expo-router": "^5.1.4",
+    "expo-status-bar": "~2.2.3",
+    "expo-vector-icons": "^10.0.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.5",
+    "react-native-ble-plx": "^3.5.0",
+    "react-native-gesture-handler": "^2.27.2",
+    "react-native-web": "^0.20.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@testing-library/jest-native": "^5.4.3",
+    "@testing-library/react-native": "^13.2.0",
+    "@types/jest": "^30.0.0",
+    "@types/react": "~19.0.10",
+    "@types/react-test-renderer": "^19.1.0",
+    "jest": "^30.0.5",
+    "jest-environment-jsdom": "^30.0.5",
+    "jsdom": "^26.1.0",
+    "react-test-renderer": "^19.0.0",
+    "ts-jest": "^29.4.0",
+    "typescript": "~5.8.3"
+  },
+  "private": true
+}
